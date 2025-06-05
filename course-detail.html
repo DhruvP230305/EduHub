@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Fundamentals - EduHub</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/course-detail.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">EduHub</a>
+      </div>
+      <nav class="main-nav">
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html" class="active">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" class="btn-login">Log In</a></li>
+          <li><a href="#" class="btn btn-primary">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="course-header">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a> &gt;
+          <a href="courses.html">Courses</a> &gt;
+          <span>Web Development Fundamentals</span>
+        </div>
+        <div class="course-intro">
+          <div class="course-info">
+            <span class="course-category">Development</span>
+            <h1>Web Development Fundamentals</h1>
+            <div class="course-meta">
+              <div class="meta-item">
+                <span class="meta-icon lessons"></span>
+                <span>12 Lessons</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon duration"></span>
+                <span>8 Hours</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon level"></span>
+                <span>Beginner</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon students"></span>
+                <span>1,245 Students</span>
+              </div>
+            </div>
+            <p class="course-description">
+              Learn the fundamentals of web development, including HTML, CSS, and JavaScript. This course is perfect for beginners who want to start their journey in web development.
+            </p>
+            <div class="instructor">
+              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="John Smith" class="instructor-image">
+              <div class="instructor-info">
+                <span class="instructor-label">Instructor</span>
+                <span class="instructor-name">John Smith</span>
+              </div>
+            </div>
+          </div>
+          <div class="course-enrollment">
+            <div class="course-card">
+              <div class="course-image">
+                <img src="https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg" alt="Web Development Fundamentals">
+              </div>
+              <div class="price-container">
+                <span class="course-price">$49.99</span>
+                <span class="course-price-original">$99.99</span>
+                <span class="discount-badge">50% Off</span>
+              </div>
+              <div class="action-buttons">
+                <button class="btn btn-primary btn-large btn-full">Enroll Now</button>
+                <button class="btn btn-outline btn-large btn-full">Add to Wishlist</button>
+              </div>
+              <ul class="course-features">
+                <li>Full Lifetime Access</li>
+                <li>12 Downloadable Resources</li>
+                <li>Certificate of Completion</li>
+                <li>30-Day Money-Back Guarantee</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="course-content">
+      <div class="container">
+        <div class="content-tabs">
+          <button class="tab-btn active" data-tab="syllabus">Syllabus</button>
+          <button class="tab-btn" data-tab="overview">Overview</button>
+          <button class="tab-btn" data-tab="reviews">Reviews</button>
+          <button class="tab-btn" data-tab="instructor">Instructor</button>
+        </div>
+
+        <div class="tab-content active" id="syllabus">
+          <div class="progress-container">
+            <div class="progress-label">
+              <span>Your Progress</span>
+              <span id="progress-percentage">25%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 25%"></div>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="accordion-title">
+                  <span class="module-number">Module 1:</span>
+                  <h3>Introduction to Web Development</h3>
+                </div>
+                <div class="module-meta">
+                  <span>3 Lessons</span>
+                  <span>45 min</span>
+                </div>
+                <button class="accordion-toggle"></button>
+              </div>
+              <div class="accordion-content">
+                <ul class="lesson-list">
+                  <li class="lesson completed">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">Introduction to the Course</span>
+                    </div>
+                    <span class="lesson-duration">10 min</span>
+                  </li>
+                  <li class="lesson completed">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">How the Web Works</span>
+                    </div>
+                    <span class="lesson-duration">15 min</span>
+                  </li>
+                  <li class="lesson current">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">Setting Up Your Development Environment</span>
+                    </div>
+                    <span class="lesson-duration">20 min</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="accordion-title">
+                  <span class="module-number">Module 2:</span>
+                  <h3>HTML Fundamentals</h3>
+                </div>
+                <div class="module-meta">
+                  <span>4 Lessons</span>
+                  <span>1 hr 20 min</span>
+                </div>
+                <button class="accordion-toggle"></button>
+              </div>
+              <div class="accordion-content">
+                <ul class="lesson-list">
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">HTML Document Structure</span>
+                    </div>
+                    <span class="lesson-duration">20 min</span>
+                  </li>
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">Text Formatting and Elements</span>
+                    </div>
+                    <span class="lesson-duration">25 min</span>
+                  </li>
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">Working with Links and Images</span>
+                    </div>
+                    <span class="lesson-duration">20 min</span>
+                  </li>
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">Tables and Forms</span>
+                    </div>
+                    <span class="lesson-duration">15 min</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="accordion-title">
+                  <span class="module-number">Module 3:</span>
+                  <h3>CSS Styling</h3>
+                </div>
+                <div class="module-meta">
+                  <span>3 Lessons</span>
+                  <span>1 hr 30 min</span>
+                </div>
+                <button class="accordion-toggle"></button>
+              </div>
+              <div class="accordion-content">
+                <ul class="lesson-list">
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">CSS Selectors and Properties</span>
+                    </div>
+                    <span class="lesson-duration">30 min</span>
+                  </li>
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">Box Model and Layout</span>
+                    </div>
+                    <span class="lesson-duration">30 min</span>
+                  </li>
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">Responsive Design Basics</span>
+                    </div>
+                    <span class="lesson-duration">30 min</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="accordion-title">
+                  <span class="module-number">Module 4:</span>
+                  <h3>JavaScript Basics</h3>
+                </div>
+                <div class="module-meta">
+                  <span>2 Lessons</span>
+                  <span>1 hr</span>
+                </div>
+                <button class="accordion-toggle"></button>
+              </div>
+              <div class="accordion-content">
+                <ul class="lesson-list">
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">Introduction to JavaScript</span>
+                    </div>
+                    <span class="lesson-duration">30 min</span>
+                  </li>
+                  <li class="lesson locked">
+                    <div class="lesson-info">
+                      <span class="lesson-icon"></span>
+                      <span class="lesson-title">DOM Manipulation</span>
+                    </div>
+                    <span class="lesson-duration">30 min</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="overview">
+          <div class="overview-content">
+            <h3>About This Course</h3>
+            <p>This comprehensive course is designed for absolute beginners who want to learn web development from scratch. You'll start by understanding how the web works, then dive into HTML, CSS, and JavaScript - the building blocks of the modern web.</p>
+            
+            <h3>What You'll Learn</h3>
+            <ul class="feature-list">
+              <li>Understand the fundamental concepts of web development</li>
+              <li>Create structured and semantic HTML documents</li>
+              <li>Style web pages using CSS to create beautiful layouts</li>
+              <li>Add interactivity to your websites with JavaScript</li>
+              <li>Build responsive websites that work on all devices</li>
+              <li>Deploy your website to the web</li>
+            </ul>
+
+            <h3>Prerequisites</h3>
+            <p>No prior programming experience is required. This course is designed for complete beginners. You'll need:</p>
+            <ul>
+              <li>A computer with internet access</li>
+              <li>Basic computer skills</li>
+              <li>Eagerness to learn!</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tab-content" id="reviews">
+          <div class="reviews-container">
+            <div class="reviews-summary">
+              <div class="rating-overview">
+                <div class="rating-average">
+                  <span class="rating-number">4.8</span>
+                  <div class="stars">
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                    <span class="star half-filled"></span>
+                  </div>
+                  <span class="rating-count">245 Reviews</span>
+                </div>
+                <div class="rating-bars">
+                  <div class="rating-bar-item">
+                    <span class="rating-label">5 Stars</span>
+                    <div class="rating-bar">
+                      <div class="rating-fill" style="width: 85%"></div>
+                    </div>
+                    <span class="rating-percentage">85%</span>
+                  </div>
+                  <div class="rating-bar-item">
+                    <span class="rating-label">4 Stars</span>
+                    <div class="rating-bar">
+                      <div class="rating-fill" style="width: 10%"></div>
+                    </div>
+                    <span class="rating-percentage">10%</span>
+                  </div>
+                  <div class="rating-bar-item">
+                    <span class="rating-label">3 Stars</span>
+                    <div class="rating-bar">
+                      <div class="rating-fill" style="width: 3%"></div>
+                    </div>
+                    <span class="rating-percentage">3%</span>
+                  </div>
+                  <div class="rating-bar-item">
+                    <span class="rating-label">2 Stars</span>
+                    <div class="rating-bar">
+                      <div class="rating-fill" style="width: 1%"></div>
+                    </div>
+                    <span class="rating-percentage">1%</span>
+                  </div>
+                  <div class="rating-bar-item">
+                    <span class="rating-label">1 Star</span>
+                    <div class="rating-bar">
+                      <div class="rating-fill" style="width: 1%"></div>
+                    </div>
+                    <span class="rating-percentage">1%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews-list">
+              <div class="review-item">
+                <div class="review-header">
+                  <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Sarah Johnson" class="reviewer-image">
+                  <div class="reviewer-info">
+                    <h4>Sarah Johnson</h4>
+                    <div class="stars">
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                    </div>
+                    <span class="review-date">2 weeks ago</span>
+                  </div>
+                </div>
+                <p class="review-text">This course was exactly what I needed! As a complete beginner, I found the explanations clear and the exercises really helped me practice what I learned. The instructor has a great teaching style.</p>
+              </div>
+              
+              <div class="review-item">
+                <div class="review-header">
+                  <img src="https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg" alt="Michael Chen" class="reviewer-image">
+                  <div class="reviewer-info">
+                    <h4>Michael Chen</h4>
+                    <div class="stars">
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star"></span>
+                    </div>
+                    <span class="review-date">1 month ago</span>
+                  </div>
+                </div>
+                <p class="review-text">I came in with some basic knowledge but learned so much more. The course is well-structured and the projects are challenging yet achievable. Would recommend to anyone starting with web development.</p>
+              </div>
+
+              <div class="review-item">
+                <div class="review-header">
+                  <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg" alt="Emma Rodriguez" class="reviewer-image">
+                  <div class="reviewer-info">
+                    <h4>Emma Rodriguez</h4>
+                    <div class="stars">
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                      <span class="star filled"></span>
+                    </div>
+                    <span class="review-date">2 months ago</span>
+                  </div>
+                </div>
+                <p class="review-text">Fantastic course! I've tried other web development courses before but none explained concepts as clearly as this one. The instructor breaks down complex topics into easy-to-understand chunks.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="instructor">
+          <div class="instructor-profile">
+            <div class="instructor-header">
+              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="John Smith" class="instructor-large-image">
+              <div class="instructor-details">
+                <h2>John Smith</h2>
+                <p class="instructor-title">Senior Web Developer & Educator</p>
+                <div class="instructor-stats">
+                  <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Courses</span>
+                  </div>
+                  <div class="stat">
+                    <span class="stat-number">15,340</span>
+                    <span class="stat-label">Students</span>
+                  </div>
+                  <div class="stat">
+                    <span class="stat-number">4.9</span>
+                    <span class="stat-label">Rating</span>
+                  </div>
+                </div>
+                <div class="social-icons">
+                  <a href="#" aria-label="Twitter"><span class="social twitter"></span></a>
+                  <a href="#" aria-label="LinkedIn"><span class="social linkedin"></span></a>
+                  <a href="#" aria-label="GitHub"><span class="social github"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="instructor-bio">
+              <h3>About John</h3>
+              <p>John Smith is a seasoned web developer with over 10 years of experience in the industry. He has worked with major tech companies and has been teaching web development for the last 5 years.</p>
+              <p>His teaching philosophy centers around practical, project-based learning that prepares students for real-world challenges. John is known for his clear explanations and patient approach to teaching complex technical concepts.</p>
+              <p>When not coding or teaching, John enjoys hiking, photography, and contributing to open-source projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="related-courses">
+      <div class="container">
+        <h2 class="section-title">Related Courses</h2>
+        <div class="course-grid">
+          <div class="course-card">
+            <div class="course-image">
+              <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="Advanced JavaScript">
+              <span class="course-category">Development</span>
+            </div>
+            <div class="course-content">
+              <h3><a href="course-detail.html">Advanced JavaScript</a></h3>
+              <div class="course-meta">
+                <span>10 Lessons</span>
+                <span>6 Hours</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">$69.99</span>
+                <a href="course-detail.html" class="btn btn-sm">View Course</a>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-image">
+              <img src="https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg" alt="Responsive Web Design">
+              <span class="course-category">Design</span>
+            </div>
+            <div class="course-content">
+              <h3><a href="course-detail.html">Responsive Web Design</a></h3>
+              <div class="course-meta">
+                <span>8 Lessons</span>
+                <span>5 Hours</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">$59.99</span>
+                <a href="course-detail.html" class="btn btn-sm">View Course</a>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-image">
+              <img src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg" alt="Frontend Frameworks">
+              <span class="course-category">Development</span>
+            </div>
+            <div class="course-content">
+              <h3><a href="course-detail.html">Frontend Frameworks</a></h3>
+              <div class="course-meta">
+                <span>15 Lessons</span>
+                <span>10 Hours</span>
+              </div>
+              <div class="course-footer">
+                <span class="course-price">$79.99</span>
+                <a href="course-detail.html" class="btn btn-sm">View Course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>EduHub</h3>
+          <p>The premier platform for online learning and skill development.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><span class="social facebook"></span></a>
+            <a href="#" aria-label="Twitter"><span class="social twitter"></span></a>
+            <a href="#" aria-label="Instagram"><span class="social instagram"></span></a>
+            <a href="#" aria-label="LinkedIn"><span class="social linkedin"></span></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="courses.html?category=development">Development</a></li>
+            <li><a href="courses.html?category=design">Design</a></li>
+            <li><a href="courses.html?category=marketing">Marketing</a></li>
+            <li><a href="courses.html?category=business">Business</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <address>
+            <p>Email: info@eduhub.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Education St, Learning City, 10001</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EduHub. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/course-detail.js"></script>
+</body>
+</html>
